@@ -20,4 +20,8 @@ spec:
           - path: /
             pathType: Prefix
             backend:
-"ingress.yaml" 26L, 926B                                                 1,1           Top
+              service:
+                name: skiapp-service
+                port:
+                  number: 80
+                                
